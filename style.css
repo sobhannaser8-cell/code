@@ -48,3 +48,39 @@ body {
     font-size: 30px;
     opacity: 0;
 }
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+
+    #hello {
+        font-size: 40px;
+    }
+
+    #information {
+        font-size: clamp(24px, 7vw, 38px);
+        width: 100%;
+        text-align: center;
+    }
+
+    #secondText {
+        font-size: clamp(18px, 5vw, 26px);
+        width: 100%;
+        text-align: center;
+    }
+
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+/* Small phones */
+@media screen and (max-width: 380px) {
+
+    #information {
+        font-size: 23px;
+    }
+
+    #secondText {
+        font-size: 17px;
+    }
+}
