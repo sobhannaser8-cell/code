@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-image: url("https://uploadkon.ir/uploads/f1ae17_26images.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+#hello,
+#information,
+#secondText {
+    position: fixed;
+    left: 50%;
+    white-space: nowrap;
+    color: white;
+    text-align: center;
+}
+
+/* متن اول */
+#hello {
+    top: 50%;
+    font-size: 60px;
+    opacity: 0;
+}
+
+/* متن INFORMATION */
+#information {
+    top: 38%;
+    font-size: 45px;
+    opacity: 0;
+}
+
+/* متن دلخواه */
+#secondText {
+    top: 49%;
+    font-size: 30px;
+    opacity: 0;
+}
